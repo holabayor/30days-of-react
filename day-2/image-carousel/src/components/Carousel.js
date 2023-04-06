@@ -15,7 +15,7 @@ export default function Carousel({ images }) {
       <div className="carousel">
         <img src={images[current].images[0]} alt="placeholder" />
       </div>
-
+      <p>{images[current].title}</p>
       <div className="buttons">
         <button className="btn" name="previous" onClick={prevSlide}>
           Previous
