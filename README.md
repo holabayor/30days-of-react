@@ -2,4 +2,4 @@
 
 ## Day 1:
 
-Javascript refresher and introduction to react
+Javascript refresher and Introduction to React.js
