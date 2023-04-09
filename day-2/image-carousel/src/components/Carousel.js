@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FcNext, FcPrevious } from 'react-icons/fc';
 
 export default function Carousel({ images }) {
   const [current, setCurrent] = useState(0);
@@ -17,12 +18,8 @@ export default function Carousel({ images }) {
       </div>
       <p>{images[current].title}</p>
       <div className="buttons">
-        <button className="btn" name="previous" onClick={prevSlide}>
-          Previous
-        </button>
-        <button className="btn" name="next" onClick={nextSlide}>
-          Next
-        </button>
+        <FcPrevious className="icon" name="prev" onClick={prevSlide} />
+        <FcNext className="icon" name="next" onClick={nextSlide} />
       </div>
     </div>
   );
