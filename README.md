@@ -4,7 +4,7 @@
 
 Javascript refresher and Introduction to React.js
 
-- Project
+Project
 
 * To Do List
 
@@ -12,6 +12,6 @@ Javascript refresher and Introduction to React.js
 
 Javascript refresher and Introduction to React.js
 
-- Project
+Project
 
 * Image Carousel
