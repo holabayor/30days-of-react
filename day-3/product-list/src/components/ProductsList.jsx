@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import products from '../data';
+import ProductItem from './ProductItem';
 
 const Products = () => {
   //   const [products, setProducts] = useState([]);
@@ -14,21 +15,17 @@ const Products = () => {
   //       });
   //   }, []);
 
-  const productList = products.map((product) => {
-    return (
-      <li key={product.id}>
-        <h2>{product.name}</h2>
-        <img src={product.thumbnail} alt={product.name} />
-        <p>{product.description}</p>
-        <p>${product.price}</p>
-      </li>
-    );
-  });
-
   return (
     <div>
-      <h1>Products</h1>
-      {productList}
+      {/* <ul>{productList}</ul> */}
+      <div className="products-page">
+        <h1>Our Products</h1>
+        <div className="product-list">
+          {products.map((product) => (
+            <ProductItem key={product.id} product={product} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
