@@ -10,4 +10,4 @@ Javascript refresher and Introduction to React.js
 
 Javascript refresher and Introduction to React.js
 
-* Image Carousel
+* Image Carousel - to be redone 
