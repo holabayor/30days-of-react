@@ -11,3 +11,9 @@ Javascript refresher and Introduction to React.js
 Javascript refresher and Introduction to React.js
 
 * Image Carousel - to be redone 
+
+## Day 3
+
+Javascript refresher and Introduction to React.js
+
+* Product List Page
